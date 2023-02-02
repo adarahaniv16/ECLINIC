@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="assets/css/syle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
@@ -23,20 +23,28 @@
 </head>
 
 <body>
-    <!-- <h1 id="logo">E-Clinics</h1> -->
-    <header id="header" class="fixed-top d-flex justify-content-center header-transparent mb-5">
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link scrollto active" href="#Home">Home</a></li>
-                <li><a class="nav-link scrollto" href="#poli">Poli</a></li>
-                <li><a class="nav-link scrollto" href="#dokter">Dokter</a></li>
-                <li><a class="nav-link scrollto" href="#Profil">Profil</a></li>
-                <li><a class="nav-link scrollto" href="#dokumentasi">Dokumentasi</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-
+<header>
+    <div class="wrapper">
+        <nav class="fixed-top d-flex justify-content-center" >
+          <div class="container-flex">
+             <div class="burger">
+                <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+             </div>
+             <div class="bg-sidebar"></div>
+             <ul class="sidebar">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#poli">Poli</a></li>
+                <li><a href="#dokter">Dokter</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#dokumentasi">Dokumentasi</a></li>
+             </ul>
+          </div>
         </nav>
-    </header>
+      </div>
+</header>
+
 
     <section id="hero">
         <div class="container-fluid">
@@ -50,9 +58,8 @@
                 </div>
                 <div class="col-lg-7 col-sm-12 p-3">
                     <div class="row p-3 heroImage mx-auto d-block">
-                        <img class="" src="assets/img/heroImage.png" width="400px" alt="Hero Images">
+                        <img class="" src="assets/img/heroImage.png" alt="Hero Images">
                     </div>
-                    
                 </div>
             </div>
             
@@ -61,15 +68,16 @@
 
     <!-- Vendor JS Files -->
     <script src="assets/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-        crossorigin="anonymous"></script> -->
-
+        crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <!-- <script>
         $(function () {
             feather.replace();
