@@ -63,6 +63,9 @@ body {
 .fw-900{
   font-weight: 900;
 }
+.fw-700{
+  font-weight: 700;
+}
 
 .text-theme {
   color: #3b434a;
@@ -237,10 +240,21 @@ nav ul li a {
   overflow: hidden;
   font-family: var(--heading-font);
   /* border-radius: 10px; */
+  
 }
-#dokter h2 span{
+
+.dokter .heading h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+
+}
+
+.dokter .heading h2 span {
   color: var(--main-color);
 }
+
 .dokter .item {
   width: 450px;
   padding: 30px;
@@ -380,7 +394,6 @@ nav ul li a {
 
 .about .heading h2 {
   font-size: 30px;
-  font-weight: 700;
   margin: 0;
   padding: 0;
 
@@ -399,7 +412,7 @@ nav ul li a {
   padding: 0;
 }
 
-.about h3 {
+.about h2 {
   font-size: 25px;
   font-weight: 700;
   margin: 0;
@@ -425,6 +438,78 @@ nav ul li a {
   color: var(--main-color);
   margin-right: 10px;
 }
+
+/* dokumentasi */
+.dokumentasi{
+  font-family: var(--heading-font);
+}
+
+.dokumentasi h2{
+  font-size: 30px;
+}
+.slide-content {
+  margin: 8px;
+  width: 250px;
+  height: 140px;
+  background-color: lightgray;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+img {
+  width: 100%;
+}
+.slid-er {
+  height: 156px; /* slide-content height + 2*margin */
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+}
+.slid-er .slides {
+  display: flex;
+}
+.slid-er .slide {
+  width: 258px; /* slide-content width + margin */
+}
+.button-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+.button-container:hover {
+  opacity: 1;
+}
+.button-container:hover .button {
+  transform: translate(-50%, -50%);
+}
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% + 12px));
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 0.25s;
+  padding: 0 8px;
+  border-radius: 12px;
+  color: white;
+  outline: 2px solid transparent;
+}
+.button:after {
+  margin: 0 3px 0 5px;
+  filter: invert(1);
+}
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 0 2px gray;
+}
+
+
+
 
 @media screen and (min-width: 960px) {
   .bg-sidebar.change {
