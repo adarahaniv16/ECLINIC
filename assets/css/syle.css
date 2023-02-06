@@ -3,6 +3,7 @@
 :root {
   --main-color: #7DCE13;
   --second-color: #25316D;
+  --p-color: #8B7E74;
   /* --body-color: #aaf39e; */
   --main-font: 'Open Sans', sans-serif;
   --heading-font: 'Raleway', sans-serif;
@@ -73,7 +74,7 @@ body {
 
 
 p {
-  color: #8B7E74;
+  color: var(--p-color);
 }
 
 
@@ -258,7 +259,7 @@ nav ul li a {
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
-  border: 8px solid #25316D;
+  border: 8px solid var(--second-color);
 }
 
 .dokter .item h3 {
@@ -369,6 +370,59 @@ nav ul li a {
   z-index: 4;
 }
 
+/* Profile */
+.about {
+  padding: 130px 0;
+  font-family: var(--heading-font);
+}
+
+.about .heading h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+
+}
+
+.about .heading h2 span {
+  color: var(--main-color);
+}
+
+.about .heading p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--p-color);
+  margin: 20px 0 60px;
+  padding: 0;
+}
+
+.about h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.about p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--p-color);
+  margin: 20px 0 15px;
+  padding: 0;
+}
+
+.about h4 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 8px 0;
+}
+
+.about h4 i {
+  color: var(--main-color);
+  margin-right: 10px;
+}
 
 @media screen and (min-width: 960px) {
   .bg-sidebar.change {
