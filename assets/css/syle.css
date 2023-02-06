@@ -204,7 +204,18 @@ nav ul li a {
   margin-top: 50px;
 }
 
-
+/* poli */
+.card:hover {
+  color: #fff;
+  background: var(--main-color);
+}
+.iconsPoli{
+  transition: 750ms;
+}
+.iconsPoli:hover {
+  transform: scale(1.2);
+  margin: 30px;
+}
 
 /* dokter */
 .slider {
