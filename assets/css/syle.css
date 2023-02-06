@@ -238,7 +238,9 @@ nav ul li a {
   font-family: var(--heading-font);
   /* border-radius: 10px; */
 }
-
+#dokter h2 span{
+  color: var(--main-color);
+}
 .dokter .item {
   width: 450px;
   padding: 30px;
