@@ -19,6 +19,18 @@ body {
   text-decoration: none;
 }
 
+.btnLogin{
+  /* background-color: var(--main-color); */
+  /* border-radius: 10px;
+  padding: 10px 20px;
+  pointer-events : none; */
+}
+
+.btnLogin a{
+  /* color: white; */
+  /* color: var(--main-color); */
+}
+
 .button1 {
   display: inline-block;
   background-color: var(--main-color);
@@ -528,6 +540,7 @@ img {
   background-color: rgba(0, 0, 0, 0.9);
   box-shadow: 0 0 0 2px gray;
 }
+
 
 /* footer */
 .footer{
