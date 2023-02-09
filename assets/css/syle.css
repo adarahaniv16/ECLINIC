@@ -60,10 +60,12 @@ body {
 .fw-500 {
   font-weight: 500;
 }
-.fw-900{
+
+.fw-900 {
   font-weight: 900;
 }
-.fw-700{
+
+.fw-700 {
   font-weight: 700;
 }
 
@@ -214,9 +216,11 @@ nav ul li a {
   color: #fff;
   background: var(--main-color);
 }
-.iconsPoli{
+
+.iconsPoli {
   transition: 750ms;
 }
+
 .iconsPoli:hover {
   transform: scale(1.2);
   margin: 30px;
@@ -241,7 +245,7 @@ nav ul li a {
   overflow: hidden;
   font-family: var(--heading-font);
   /* border-radius: 10px; */
-  
+
 }
 
 .dokter .heading h2 {
@@ -281,7 +285,7 @@ nav ul li a {
 
 .dokter .item h3 {
   font-size: 17px;
-  
+
 }
 
 .dokter .item h4 {
@@ -389,7 +393,6 @@ nav ul li a {
 
 /* Profile */
 .about {
-  padding: 130px 0;
   font-family: var(--heading-font);
 }
 
@@ -423,9 +426,11 @@ nav ul li a {
   color: var(--p-color);
   margin: 20px 0 15px;
 }
-.about .textDeskripsi{
+
+.about .textDeskripsi {
   text-align: justify;
 }
+
 .about h3 {
   font-size: 17px;
   text-align: center;
@@ -443,13 +448,14 @@ nav ul li a {
 }
 
 /* dokumentasi */
-.dokumentasi{
+.dokumentasi {
   font-family: var(--heading-font);
 }
 
-.dokumentasi h2{
+.dokumentasi h2 {
   font-size: 30px;
 }
+
 .slide-content {
   margin: 8px;
   width: 250px;
@@ -459,21 +465,28 @@ nav ul li a {
   overflow: hidden;
   position: relative;
 }
+
 img {
   width: 100%;
 }
+
 .slid-er {
-  height: 156px; /* slide-content height + 2*margin */
+  height: 156px;
+  /* slide-content height + 2*margin */
   margin: auto;
   overflow: hidden;
   width: 100%;
 }
+
 .slid-er .slides {
   display: flex;
 }
+
 .slid-er .slide {
-  width: 258px; /* slide-content width + margin */
+  width: 258px;
+  /* slide-content width + margin */
 }
+
 .button-container {
   position: absolute;
   top: 0;
@@ -484,12 +497,15 @@ img {
   cursor: pointer;
   transition: opacity 0.25s;
 }
+
 .button-container:hover {
   opacity: 1;
 }
+
 .button-container:hover .button {
   transform: translate(-50%, -50%);
 }
+
 .button {
   position: absolute;
   top: 50%;
@@ -502,15 +518,16 @@ img {
   color: white;
   outline: 2px solid transparent;
 }
+
 .button:after {
   margin: 0 3px 0 5px;
   filter: invert(1);
 }
+
 .button:hover {
   background-color: rgba(0, 0, 0, 0.9);
   box-shadow: 0 0 0 2px gray;
 }
-
 
 
 
