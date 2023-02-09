@@ -36,5 +36,3 @@ slides.addEventListener("mouseout", function (event) {
   isMouseIn = false;
 });
 
-
-

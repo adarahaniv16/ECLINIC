@@ -529,7 +529,10 @@ img {
   box-shadow: 0 0 0 2px gray;
 }
 
-
+/* footer */
+.footer{
+  background-color: var(--main-color);
+}
 
 @media screen and (min-width: 960px) {
   .bg-sidebar.change {
