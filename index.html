@@ -51,7 +51,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <button href="#" class="button1 fw-500" type="button" style="vertical-align:middle"><span>Registrasi
+                    <button href="#" class="button1 fw-500" type="button" style="vertical-align:middle" data-bs-toggle="modal" data-bs-target="#exampleModal"><span>Registrasi
                         </span></button>
                 </div>
                 <div class="col-lg-7 col-sm-12 p-3">
@@ -61,6 +61,33 @@
                 </div>
             </div>
         </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Input NIK</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">NIK</label>
+                            <input type="NIK" class="form-control" id="exampleInputNIK" aria-describedby="nikHelp">
+                            <div id="nikHelp" class="form-text">We'll never share your NIK with anyone else.</div>
+                          </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
     <section id="poli">
         <div class="container-fluid my-5">
