@@ -151,7 +151,8 @@ change .bar1 {
 }
 
 nav {
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
+  padding: 10px;
   box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, .1);
   background-color: white;
   font-family: var(--heading-font);
@@ -404,11 +405,9 @@ nav ul li a {
 
 .about .heading p {
   font-size: 15px;
-  font-weight: 400;
   line-height: 1.7;
   color: var(--p-color);
   margin: 20px 0 60px;
-  padding: 0;
 }
 
 .about h2 {
@@ -420,11 +419,16 @@ nav ul li a {
 
 .about p {
   font-size: 15px;
-  font-weight: 400;
   line-height: 1.7;
   color: var(--p-color);
   margin: 20px 0 15px;
-  padding: 0;
+}
+.about .textDeskripsi{
+  text-align: justify;
+}
+.about h3 {
+  font-size: 17px;
+  text-align: center;
 }
 
 .about h4 {
@@ -534,10 +538,12 @@ img {
     right: unset;
     width: unset;
     flex-direction: row;
+
   }
 
   nav ul li {
     padding: 5px 15px;
+
   }
 
   nav ul li:hover::after {
