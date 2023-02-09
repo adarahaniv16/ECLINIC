@@ -2,6 +2,7 @@ const burger = document.querySelector('.burger')
 const sidebar = document.querySelector('.sidebar')
 const bgSidebar = document.querySelector('.bg-sidebar')
 
+
 burger.addEventListener('click', function() {
   this.classList.toggle('change')
   sidebar.classList.toggle('change')
@@ -34,3 +35,6 @@ slides.addEventListener("mouseover", function (event) {
 slides.addEventListener("mouseout", function (event) {
   isMouseIn = false;
 });
+
+
+

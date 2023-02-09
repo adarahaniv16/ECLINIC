@@ -13,6 +13,7 @@
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Favicons -->
     <link href="assets/img/medical.png" rel="icon">
     <link href="assets/img/medical.png" rel="apple-touch-icon">
@@ -44,7 +45,8 @@
     <section id="hero">
         <div class="container-fluid">
             <div class="row heroText">
-                <div class="col-lg-5 col-sm-12 p-5 mb-2">
+                <div class="col-lg-5 col-sm-12 p-5 mb-2" data-aos="fade-right"
+                data-aos-delay="300">
                     <h1 class="font-weight-bold pt-2">LOREM IPSUM DOLOR SIT AMET</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -52,7 +54,7 @@
                     <a href="#" class="button1 fw-500" style="vertical-align:middle"><span>Registrasi </span></a>
                 </div>
                 <div class="col-lg-7 col-sm-12 p-3">
-                    <div class="row p-3 heroImage mx-auto d-block">
+                    <div class="row p-3 heroImage mx-auto d-block" data-aos="zoom-in" data-aos-delay="600">
                         <img src="assets/img/heroImage.png" alt="Hero Images">
                     </div>
                 </div>
@@ -63,7 +65,7 @@
         <!-- <div class="container mt-5"> -->
         <div class="row p-5 mb-5">
             <div class="col-lg-3">
-                <div class="card border-0 iconsPoli">
+                <div class="card border-0 iconsPoli" data-aos="zoom-in"  data-aos-delay="200">
                     <img class="card-img-top mx-auto d-block" src="assets/img/polia.png" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="text-center">POLI A</h3>
@@ -74,7 +76,7 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="card border-0 iconsPoli">
+                <div class="card border-0 iconsPoli" data-aos="zoom-in"  data-aos-delay="300">
                     <img class="card-img-top mx-auto d-block" src="assets/img/polib.png" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="text-center">POLI B</h3>
@@ -85,7 +87,7 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="card border-0 iconsPoli">
+                <div class="card border-0 iconsPoli" data-aos="zoom-in"  data-aos-delay="400">
                     <img class="card-img-top mx-auto d-block" src="assets/img/polic.png" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="text-center">POLI C</h3>
@@ -96,7 +98,7 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="card border-0 iconsPoli">
+                <div class="card border-0 iconsPoli" data-aos="zoom-in"  data-aos-delay="500">
                     <img class="card-img-top mx-auto d-block" src="assets/img/polid.png" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="text-center">POLI D</h3>
@@ -112,13 +114,13 @@
 
     <section id="dokter" class="dokter">
         <div class="container-fluid px-5">
-            <div class="heading text-center">
+            <div class="heading text-center" data-aos="zoom-in"  data-aos-delay="300">
                 <h2>Jadwal
                     <span>Dokter</span>
                 </h2>
             </div>
             <hr>
-            <div class="slider">
+            <div class="slider" data-aos="zoom-in"  data-aos-delay="400">
                 <input type="radio" name="dokter" id="t-1">
                 <input type="radio" name="dokter" id="t-2">
                 <input type="radio" name="dokter" id="t-3" checked>
@@ -169,7 +171,7 @@
 
     <section class="about" id="about">
         <div class="container-fluid px-5">
-            <div class="heading text-center">
+            <div class="heading text-center" data-aos="zoom-in"  data-aos-delay="100">
                 <h2>About
                     <span>Us</span>
                 </h2>
@@ -179,10 +181,10 @@
                 </p>
             </div>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-right"  data-aos-delay="400">
                     <img src="assets/img/doctor.jpg" alt="about" class="img-fluid" width="100%">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left"  data-aos-delay="500">
                     <h3>Lorem ipsum dolor sit amet, consectetur </h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -302,11 +304,16 @@
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
     <!-- <script>
         $(function () {
             feather.replace();
         })
     </script> -->
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
