@@ -306,7 +306,7 @@ nav ul li a {
   width: 5px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: var(--second-color);
+  background-color: var(--main-color);
   margin: 7px;
   transition-duration: 0.2s;
 }
@@ -317,7 +317,7 @@ nav ul li a {
 #t-4:checked~.dots label[for="t-4"],
 #t-5:checked~.dots label[for="t-5"] {
   transform: scale(2);
-  background-color: #fff;
+  background-color: var(--second-color);
 }
 
 #t-1:checked~.dots label[for="t-2"],
