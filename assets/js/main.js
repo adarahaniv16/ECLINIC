@@ -1,8 +1,10 @@
+// import "node_modules/bootstrap/dist/js/bootstrap.min.js";
+
 const burger = document.querySelector('.burger')
 const sidebar = document.querySelector('.sidebar')
 const bgSidebar = document.querySelector('.bg-sidebar')
 
-
+// console.log("hai");
 burger.addEventListener('click', function() {
   this.classList.toggle('change')
   sidebar.classList.toggle('change')
@@ -36,3 +38,4 @@ slides.addEventListener("mouseout", function (event) {
   isMouseIn = false;
 });
 
+// module.exports = {burger, sidebar, bgSidebar, slides}
