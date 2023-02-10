@@ -484,6 +484,10 @@ img {
   /* slide-content width + margin */
 }
 
+.btnLogin a{
+  color: var(--main-color);
+}
+
 .button-container {
   position: absolute;
   top: 0;
