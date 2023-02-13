@@ -38,7 +38,7 @@
             </nav>
         </div>
     </header> -->
-    <nav class="navbar navbar-expand-lg py-3 px-2" >
+    <nav class="navbar navbar-expand-lg py-3 px-2">
         <div class="container-fluid">
             <img src="assets/img/logo.png" width="42px" class="logoNavbar" alt="">
             <!-- <h1 class="navbar-brand pt-2"> Cahaya Medika Insani</h1> -->
@@ -62,7 +62,7 @@
                     </li>
                 </ul>
                 <button href="#" class="ctext-light btnLogin p-2 border-0 border-radius-10">
-                    <span class="navbar-text bi bi-box-arrow-in-right"> 
+                    <span class="navbar-text bi bi-box-arrow-in-right">
                         Masuk
                     </span>
                 </button>
@@ -78,9 +78,18 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <button href="#" class="button1" type="button" style="vertical-align:middle"
-                        data-bs-toggle="modal" data-bs-target="#exampleModal"><span>Registrasi
-                        </span></button>
+                    <button href="#" class="button1" type="button" style="vertical-align:middle" data-bs-toggle="modal"
+                        data-bs-target="#registrasiModal">
+                        <span>
+                            Registrasi
+                        </span>
+                    </button>
+                    <button href="#" class="button1" type="button" style="vertical-align:middle" data-bs-toggle="modal"
+                        data-bs-target="#antrianModal">
+                        <span>
+                            Lihat Antrian
+                        </span>
+                    </button>
                 </div>
                 <div class="col-lg-7 col-sm-12 p-3">
                     <div class="row p-3 heroImage mx-auto d-block" data-aos="zoom-in" data-aos-delay="600">
@@ -89,12 +98,12 @@
                 </div>
             </div>
         </div>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- Modal Registrasi -->
+        <div class="modal fade" id="registrasiModal" tabindex="-1" aria-labelledby="registrasiModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Input NIK</h1>
+                        <h1 class="modal-title fs-5" id="registrasiModalLabel">Input NIK</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -113,7 +122,26 @@
                 </div>
             </div>
         </div>
+        <!-- modal antrian -->
+        <div class="modal" id="antrianModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    
     <section id="poli">
         <div class="container-fluid my-5 poli">
             <div class="row p-5 mb-5">
