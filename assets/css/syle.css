@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500&family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@100;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500&family=Raleway:wght@100;400;500;600&display=swap');
 
 :root {
   --main-color: #7DCE13;
   --second-color: #25316D;
   --p-color: #8B7E74;
   --main-font: 'Bitter', sans-serif;
-  --heading-font: 'Playfair Display', sans-serif;
+  --heading-font: 'Raleway', sans-serif;
 }
 
 body {
@@ -18,8 +18,47 @@ body {
   text-decoration: none;
 }
 
+/* font */
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.text-theme {
+  color: #3b434a;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+nav {
+  font-family: var(--main-font);
+}
+
+.logoNavbar {
+  width: 44px;
+}
 
 /* button */
+.btnLogin {
+  background-color: #7DCE13;
+
+
+}
+
+.btnLogin span {
+  text-decoration: none;
+  color: white;
+}
+
 .button1 {
   display: inline-block;
   background-color: var(--main-color);
@@ -58,26 +97,6 @@ body {
   right: 0;
 }
 
-/* font */
-.fw-500 {
-  font-weight: 500;
-}
-
-.fw-900 {
-  font-weight: 900;
-}
-
-.fw-700 {
-  font-weight: 700;
-}
-
-.text-theme {
-  color: #3b434a;
-}
-
-.border-radius-10 {
-  border-radius: 10px;
-}
 
 
 p {
@@ -110,10 +129,7 @@ p {
   margin-top: 40px;
 }
 
-/* navbar new */
-.logoNavbar {
-  width: 44px;
-}
+
 
 
 /* burger icon */
@@ -594,10 +610,21 @@ img {
     font-size: 1.1rem;
   }
 } */
-
-/* @media screen and (min-width: 992px) {
-  #hero {
-    margin-top: 100px;
+@media screen and (max-width: 900px) {
+  nav ul li:hover {
+    background-color: var(--main-color);
   }
+}
 
-} */
+@media screen and (min-width: 992px) {
+  nav ul li:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    transition: .3s;
+    background-color: var(--main-color);
+    transform: translateY(0px);
+
+  }
+}
