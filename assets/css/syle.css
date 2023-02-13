@@ -3,8 +3,8 @@
   --main-color: #7DCE13;
   --second-color: #25316D;
   --p-color: #8B7E74;
-  --main-font: 'Bitter', sans-serif;
-  --heading-font: 'Raleway', sans-serif;
+  --main-font: 'Raleway', sans-serif;
+  --heading-font: 'Bitter', sans-serif;
   --button-font: 'Open Sans', sans-serif;
 }
 
@@ -29,6 +29,11 @@ body {
 
 .fw-700 {
   font-weight: 700;
+}
+
+h3{
+  font-size: 17px;
+  font-family: var(--heading-font);
 }
 
 .text-theme {
@@ -98,20 +103,8 @@ nav {
 }
 
 
-
 p {
   color: var(--p-color);
-}
-
-
-.container h1 {
-  font-size: 40px;
-  font-family: var(--heading-font);
-}
-
-.container {
-  font-size: 20px;
-  font-family: var(--heading-font);
 }
 
 .heroImage {
@@ -119,9 +112,10 @@ p {
 
 }
 
-.heroText {
+.heroText h1{
   margin: 0;
   padding: 0;
+  font-family: var(--heading-font);
 }
 
 .card-img-top {
@@ -305,10 +299,7 @@ nav ul li a {
   border: 8px solid var(--second-color);
 }
 
-.dokter .item h3 {
-  font-size: 17px;
 
-}
 
 .dokter .item h4 {
   font-size: 15px;
@@ -454,7 +445,6 @@ nav ul li a {
 }
 
 .about h3 {
-  font-size: 17px;
   text-align: center;
 }
 
