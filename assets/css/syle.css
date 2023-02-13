@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500&family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@100;400;500;600&display=swap');
 
 :root {
   --main-color: #7DCE13;
   --second-color: #25316D;
   --p-color: #8B7E74;
-  --main-font: 'Open Sans', sans-serif;
-  --heading-font: 'Raleway', sans-serif;
+  --main-font: 'Bitter', sans-serif;
+  --heading-font: 'Playfair Display', sans-serif;
 }
 
 body {
@@ -18,6 +18,8 @@ body {
   text-decoration: none;
 }
 
+
+/* button */
 .button1 {
   display: inline-block;
   background-color: var(--main-color);
@@ -56,6 +58,7 @@ body {
   right: 0;
 }
 
+/* font */
 .fw-500 {
   font-weight: 500;
 }
@@ -107,8 +110,14 @@ p {
   margin-top: 40px;
 }
 
-/* burger icon */
+/* navbar new */
+.logoNavbar {
+  width: 44px;
+}
 
+
+/* burger icon */
+/* 
 .burger {
   display: inline-block;
   cursor: pointer;
@@ -141,10 +150,10 @@ p {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
   background-color: white;
-}
+} */
 
 /* wraper */
-
+/* 
 .container-flex {
   display: flex;
   justify-content: space-between;
@@ -203,11 +212,11 @@ nav ul li a {
   color: white;
   font-size: 1.2rem;
   text-decoration: none;
-}
+} */
 
-#hero {
-  margin-top: 50px;
-}
+/* #hero {
+  margin-top: 500px;
+} */
 
 /* poli */
 .card:hover {
@@ -484,7 +493,7 @@ img {
   /* slide-content width + margin */
 }
 
-.btnLogin a{
+.btnLogin a {
   color: var(--main-color);
 }
 
@@ -532,10 +541,11 @@ img {
 
 
 /* footer */
-.footer{
+.footer {
   background-color: var(--main-color);
 }
 
+/* 
 @media screen and (min-width: 960px) {
   .bg-sidebar.change {
     right: 0;
@@ -583,11 +593,11 @@ img {
     color: black;
     font-size: 1.1rem;
   }
-}
+} */
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   #hero {
     margin-top: 100px;
   }
 
-}
+} */

@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
     <!-- Favicons -->
-    <link href="assets/img/medical.png" rel="icon">
-    <link href="assets/img/medical.png" rel="apple-touch-icon">
+    <link href="assets/img/logo.png" rel="icon">
+    <link href="assets/img/logo.png" rel="apple-touch-icon">
     <title>Landing Page | E-Clinic </title>
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <div class="wrapper">
             <nav class="fixed-top d-flex justify-content-center">
                 <div class="container-flex">
@@ -29,7 +29,7 @@
                     <ul class="sidebar text-center">
                         <li><a href="#poli">POLI</a></li>
                         <li><a href="#dokter">DOKTER</a></li>
-                        <!-- <li><a href="#pelayanan">PELAYANAN</a></li> -->
+                        <li><a href="#pelayanan">PELAYANAN</a></li>
                         <li><a href="#about">PROFIL</a></li>
                         <li><a href="#dokumentasi">DOKUMENTASI</a></li>
                         <li class="btnLogin fw-900"><a href="#login">LOGIN</a></li>
@@ -37,7 +37,38 @@
                 </div>
             </nav>
         </div>
-    </header>
+    </header> -->
+    <nav class="navbar navbar-expand-lg bg-*">
+        <div class="container-fluid">
+            <img src="assets/img/logo.png" width="42px" class="logoNavbar" alt="">
+            <h1 class="navbar-brand" > Cahaya Medika Insani</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#poli">POLI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dokter">DOKTER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">PROFIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dokumentasi">DOKUMENTASI</a>
+                    </li>
+                </ul>
+                <a href=""><span class="navbar-text bi bi-box-arrow-in-right">
+                    LOGIN
+                </span></a>
+                
+            </div>
+        </div>
+    </nav>
+
     <section id="hero">
         <div class="container-fluid">
             <div class="row heroText">
@@ -320,6 +351,7 @@
     <!-- Vendor JS Files -->
     <script src="assets/js/main.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <script src="node_modules/aos/dist/aos.js"></script>
     <script>
         AOS.init();
