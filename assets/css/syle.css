@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500&family=Open+Sans:wght@300;400&family=Raleway:wght@100;400;500;600&display=swap');
 :root {
-  --main-color: #7DCE13;
-  --second-color: #25316D;
-  --p-color: #8B7E74;
+  --main-color: #094067;
+  --second-color: #90b4ce;
+  --p-color: #5f6c7b;
+  --btn-color:  #3da9fc;
   --main-font: 'Raleway', sans-serif;
   --heading-font: 'Bitter', sans-serif;
   --button-font: 'Open Sans', sans-serif;
@@ -69,7 +70,7 @@ nav {
 
 /* button */
 .btnLogin {
-  background-color: var(--main-color);
+  background-color: var(--btn-color);
   font-family: var(--button-font);
 }
 
@@ -81,7 +82,7 @@ nav {
 .button1 {
   font-family: var(--button-font);
   display: inline-block;
-  background-color: var(--main-color);
+  background-color: var(--btn-color);
   border: none;
   color: white;
   padding: 10px 25px;
@@ -242,7 +243,7 @@ nav ul li a {
 /* poli */
 .card:hover {
   color: #fff;
-  background: var(--main-color);
+  background: var(--second-color);
 }
 
 .iconsPoli {
@@ -284,13 +285,13 @@ nav ul li a {
 }
 
 .dokter .heading h2 span {
-  color: var(--main-color);
+  color: var(--btn-color);
 }
 
 .dokter .item {
   width: 450px;
   padding: 30px;
-  background-color: var(--main-color);
+  background-color: var(--second-color);
   position: absolute;
   top: 0;
   box-sizing: border-box;
@@ -306,14 +307,14 @@ nav ul li a {
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
-  border: 8px solid var(--second-color);
+  border: 8px solid var(--main-color);
 }
 
 
 
 .dokter .item h4 {
   padding: 20px;
-  background-color: var(--second-color);
+  background-color: var(--main-color);
   border-radius: 20px;
   color: #ddd;
   margin-left: 20px;
@@ -331,7 +332,7 @@ nav ul li a {
   width: 5px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: var(--main-color);
+  background-color: var(--second-color);
   margin: 7px;
   transition-duration: 0.2s;
 }
@@ -342,7 +343,7 @@ nav ul li a {
 #t-4:checked~.dots label[for="t-4"],
 #t-5:checked~.dots label[for="t-5"] {
   transform: scale(2);
-  background-color: var(--second-color);
+  background-color: var(--main-color);
 }
 
 #t-1:checked~.dots label[for="t-2"],
@@ -425,7 +426,7 @@ nav ul li a {
 }
 
 .about .heading h2 span {
-  color: var(--main-color);
+  color: var(--btn-color);
 }
 
 .about .heading p {
@@ -464,7 +465,7 @@ nav ul li a {
 }
 
 .about h5 i {
-  color: var(--main-color);
+  color: var(--second-color);
   margin-right: 10px;
 }
 
