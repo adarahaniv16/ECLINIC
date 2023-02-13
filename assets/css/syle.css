@@ -8,10 +8,6 @@
   --button-font: 'Open Sans', sans-serif;
 }
 
-body {
-  font-family: var(--main-font);
-}
-
 * {
   padding: 0;
   list-style: none;
@@ -36,8 +32,12 @@ h3{
   font-family: var(--heading-font);
 }
 
-.text-theme {
-  color: #3b434a;
+h4{
+  font-size: 15px;
+}
+
+p {
+  color: var(--p-color);
 }
 
 .border-radius-10 {
@@ -102,10 +102,6 @@ nav {
   right: 0;
 }
 
-
-p {
-  color: var(--p-color);
-}
 
 .heroImage {
   width: 90%;
@@ -302,7 +298,6 @@ nav ul li a {
 
 
 .dokter .item h4 {
-  font-size: 15px;
   padding: 20px;
   background-color: var(--second-color);
   border-radius: 20px;
@@ -449,7 +444,6 @@ nav ul li a {
 }
 
 .about h4 {
-  font-size: 15px;
   font-weight: 500;
   margin: 8px 0;
 }
