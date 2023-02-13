@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500&family=Raleway:wght@100;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500&family=Open+Sans:wght@300;400&family=Raleway:wght@100;400;500;600&display=swap');
 :root {
   --main-color: #7DCE13;
   --second-color: #25316D;
   --p-color: #8B7E74;
   --main-font: 'Bitter', sans-serif;
   --heading-font: 'Raleway', sans-serif;
+  --button-font: 'Open Sans', sans-serif;
 }
 
 body {
@@ -49,9 +49,8 @@ nav {
 
 /* button */
 .btnLogin {
-  background-color: #7DCE13;
-
-
+  background-color: var(--main-color);
+  font-family: var(--button-font);
 }
 
 .btnLogin span {
@@ -60,11 +59,12 @@ nav {
 }
 
 .button1 {
+  font-family: var(--button-font);
   display: inline-block;
   background-color: var(--main-color);
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   border-radius: 8px;
@@ -509,9 +509,6 @@ img {
   /* slide-content width + margin */
 }
 
-.btnLogin a {
-  color: var(--main-color);
-}
 
 .button-container {
   position: absolute;
@@ -625,6 +622,6 @@ img {
     transition: .3s;
     background-color: var(--main-color);
     transform: translateY(0px);
-
   }
+  
 }
