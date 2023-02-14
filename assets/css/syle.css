@@ -608,6 +608,9 @@ img {
   nav ul li:hover {
     background-color: var(--main-color);
   }
+  .heroImage img{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 992px) {
