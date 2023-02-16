@@ -2,7 +2,6 @@
 :root {
   --main-color: #094067;
   --second-color: #90b4ce;
-  --third-color: #ef4565;
   --p-color: #5f6c7b;
   --btn-color:  #3da9fc;
   --main-font: 'Raleway', sans-serif;
@@ -330,7 +329,7 @@ nav ul li a {
 
 
 .dokter .item h4 {
-  padding: 20px;
+  padding: 10px;
   background-color: var(--main-color);
   border-radius: 20px;
   color: #ddd;
