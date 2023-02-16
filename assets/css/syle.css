@@ -2,6 +2,7 @@
 :root {
   --main-color: #094067;
   --second-color: #90b4ce;
+  --third-color: #ef4565;
   --p-color: #5f6c7b;
   --btn-color:  #3da9fc;
   --main-font: 'Raleway', sans-serif;
@@ -72,8 +73,24 @@ nav {
 .btnLogin {
   background-color: var(--btn-color);
   font-family: var(--button-font);
+  padding: 10px 25px;
+}
+.btnLogin:hover {
+  background-color: var(--main-color);
 }
 
+.btnDetail{
+  background-color: var(--btn-color);
+  font-family: var(--button-font);
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btnDetail:hover{
+  background-color: var(--main-color);
+}
 .btnLogin span {
   text-decoration: none;
   color: white;
@@ -88,7 +105,7 @@ nav {
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 10px;
   transition: all 0.5s;
   cursor: pointer;
 }
