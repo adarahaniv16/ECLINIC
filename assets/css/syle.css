@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;300;400;500&family=Open+Sans:wght@300;400&family=Raleway:wght@100;400;500;600&display=swap');
 :root {
   --main-color: #094067;
-  --second-color: #90b4ce;
+  --second-color: #BAD7E9;
   --p-color: #5f6c7b;
-  --btn-color:  #3da9fc;
+  --btn-color:  #3C84AB;
   --main-font: 'Raleway', sans-serif;
   --heading-font: 'Bitter', sans-serif;
   --button-font: 'Open Sans', sans-serif;
@@ -54,6 +54,7 @@ h5{
 
 p {
   color: var(--p-color);
+  font-family: var(--main-font);
 }
 
 .border-radius-10 {
@@ -107,6 +108,7 @@ nav {
   border-radius: 10px;
   transition: all 0.5s;
   cursor: pointer;
+
 }
 
 .button1 span {
