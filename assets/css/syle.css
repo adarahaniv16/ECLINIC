@@ -157,8 +157,9 @@ nav {
 
 /* poli */
 .card:hover {
-  color: #fff;
+  color: var(--main-color);
   background: var(--second-color);
+  font-weight: 700;
 }
 
 .iconsPoli {
@@ -334,6 +335,10 @@ nav {
   font-family: var(--heading-font);
 }
 
+.rowAbout{
+  padding: 40px;
+  background-color: var(--second-color);
+}
 
 .about .heading h2 {
   margin: 0;
@@ -350,8 +355,6 @@ nav {
   color: var(--p-color);
   margin: 20px 0 60px;
 }
-
-
 
 .about h2 {
   font-weight: 700;
@@ -380,7 +383,7 @@ nav {
 }
 
 .about h5 i {
-  color: var(--second-color);
+  color: var(--main-color);
   margin-right: 10px;
 }
 .imgDoc a img{
