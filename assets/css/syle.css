@@ -60,9 +60,7 @@ p {
 .border-radius-10 {
   border-radius: 10px;
 }
-/* #hero{
-  background-color: var(--second-color);
-} */
+
 nav {
   font-family: var(--main-font);
 }
