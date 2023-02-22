@@ -169,6 +169,34 @@ nav {
   margin: 30px;
 } */
 
+
+
+
+/* pelayanan */
+#pelayanan{
+  /* margin-top: 80px; */
+  /* margin-bottom: 100px; */
+  background-color: #BAD7E9;
+  /* padding: 150px; */
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+}
+.titlePelayanan{
+  background-color: #094067;
+  border-radius: 10px;
+  color: white !important;
+}
+.textPelayanan{
+  text-align: center;
+}
+.imgPelayanan{
+  border-radius: 10px !important;
+}
+
+.cardPelayanan{
+  border-radius: 10px !important;
+}
+
 /* dokter */
 .slider {
   width: 100%;
@@ -335,7 +363,7 @@ nav {
 
 .rowAbout{
   padding: 40px;
-  background-color: var(--second-color);
+  /* background-color: var(--second-color); */
 }
 
 .about .heading h2 {
@@ -402,8 +430,6 @@ nav {
   font-family: var(--main-font) !important;
 }
 
-
-
 @media screen and (max-width: 990px) {
   nav ul li:hover {
     background-color: var(--main-color);
@@ -426,7 +452,7 @@ nav {
 
   #hero{
     width: 100%;
-    background: url("../img/background.png") top right;
+    background: url("../img/background2.png") top right;
     background-size: cover;
     position: relative;
   }
