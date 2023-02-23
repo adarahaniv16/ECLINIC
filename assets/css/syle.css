@@ -148,7 +148,7 @@ nav {
   font-family: var(--heading-font);
 }
 
-.card-img-top {
+.card-img-top1 {
   width: 9rem !important;
   margin-top: 40px;
 }
@@ -169,33 +169,6 @@ nav {
   margin: 30px;
 } */
 
-
-
-
-/* pelayanan */
-#pelayanan{
-  /* margin-top: 80px; */
-  /* margin-bottom: 100px; */
-  background-color: #BAD7E9;
-  /* padding: 150px; */
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
-}
-.titlePelayanan{
-  background-color: #094067;
-  border-radius: 10px;
-  color: white !important;
-}
-.textPelayanan{
-  text-align: center;
-}
-.imgPelayanan{
-  border-radius: 10px !important;
-}
-
-.cardPelayanan{
-  border-radius: 10px !important;
-}
 
 /* dokter */
 .slider {
@@ -361,10 +334,10 @@ nav {
   font-family: var(--heading-font);
 }
 
-.rowAbout{
-  padding: 40px;
-  /* background-color: var(--second-color); */
-}
+/* .rowAbout{
+  padding: 10px;
+  background-color: var(--second-color);
+} */
 
 .about .heading h2 {
   margin: 0;
@@ -430,12 +403,21 @@ nav {
   font-family: var(--main-font) !important;
 }
 
+.pHero{
+  text-align: justify;
+  margin-top: 10px;
+}
 @media screen and (max-width: 990px) {
   nav ul li:hover {
     background-color: var(--main-color);
   }
   .heroImage img{
     display: none;
+  }
+  .h1Hero{
+    font-size: 27px !important;
+    text-align: center;
+    padding: 0 !important;
   }
 }
 
